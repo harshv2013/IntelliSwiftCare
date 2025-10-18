@@ -1,0 +1,37 @@
+/* App background gradient */
+.stApp {
+  background: linear-gradient(90deg, #f8fbff 0%, #eef7ff 100%);
+  background-attachment: fixed;
+}
+
+/* Chat bubbles */
+.user-bubble {
+  background: #E8F0FE;
+  color: #042A4A;
+  padding: 10px 14px;
+  border-radius: 14px;
+  margin: 6px 0;
+  display: inline-block;
+}
+
+.assistant-bubble {
+  background: #DFF6E6;
+  color: #08331A;
+  padding: 10px 14px;
+  border-radius: 14px;
+  margin: 6px 0;
+  display: inline-block;
+}
+
+/* Card/panel styling */
+.stButton>button {
+  border-radius: 8px;
+}
+
+/* optional: style the top header area */
+.header {
+  background: transparent;
+  padding-bottom: 8px;
+}
+
+
