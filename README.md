@@ -137,7 +137,7 @@ cp .env.example .env
 # Azure Cognitive Search
 AZURE_SEARCH_ENDPOINT=https://<your-search-service>.search.windows.net
 AZURE_SEARCH_KEY=<your-search-key>
-INDEX_NAME=medical-knowledge-index
+AZURE_SEARCH_INDEX=medical-knowledge-index
 
 # Azure Blob Storage
 AZURE_STORAGE_ACCOUNT=<your-storage-account>
