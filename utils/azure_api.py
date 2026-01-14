@@ -64,7 +64,7 @@ load_dotenv()
 # --- Azure Cognitive Search ---
 AZURE_SEARCH_ENDPOINT = os.getenv("AZURE_SEARCH_ENDPOINT")
 AZURE_SEARCH_KEY = os.getenv("AZURE_SEARCH_KEY")
-INDEX_NAME = os.getenv("INDEX_NAME")
+INDEX_NAME = os.getenv("AZURE_SEARCH_INDEX")
 
 import base64
 
